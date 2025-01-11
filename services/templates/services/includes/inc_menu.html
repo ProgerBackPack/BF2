@@ -1,0 +1,52 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+
+    <h5 class="my-0 mr-md-auto font-weight-normal">МедКлиникСервис</h5>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+               aria-expanded="false">Навигация</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{% url 'home_page' %}">Главная</a></li>
+                <li><a class="dropdown-item" href="{% url 'services:home' %}">Услуги</a></li>
+                <li><a class="dropdown-item" href="{% url 'doctors:home' %}">Врачи</a></li>
+                <li><a class="dropdown-item" href="{% url 'services:contact' %}">Контакты</a></li>
+
+            </ul>
+        </li>
+        {% if user.is_superuser %}
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+               aria-expanded="false">Админ</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{% url 'services:create' %}">Создать Услугу</a></li>
+                <li><a class="dropdown-item" href="{% url 'doctors:create' %}">Добавить доктора</a></li>
+                <li><a class="dropdown-item" href="{% url 'services:record_list' %}">Просмотр записей</a></li>
+            </ul>
+        </li>
+        {% endif %}
+        {% if user.is_authenticated %}
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+               aria-expanded="false">Пользователь</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{% url 'services:record' %}">Записаться на прием</a></li>
+                <li><a class="dropdown-item" href="{% url 'services:record_list' %}">Мои записи</a></li>
+                <li><a class="dropdown-item" href="{% url 'services:diagnostic_list' %}">Результаты</a></li>
+                <li><a class="dropdown-item" href="{% url 'users:logout' %}">Выйти</a></li>
+            </ul>
+        </li>
+
+        {% else %}
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+               aria-expanded="false">Пользователь</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{% url 'users:login' %}">Вход</a></li>
+                <li><a class="dropdown-item" href="{% url 'users:register' %}">Зарегестрироваться</a></li>
+            </ul>
+        </li>
+        {% endif %}
+
+    </ul>
+</div>

@@ -1,0 +1,30 @@
+{% extends 'services/base.html' %}
+{% load my_tags %}
+{% block content %}
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div style="text-align: center;"><img src="{{ object.picture | media_filter }}"
+                                                              style="width:200px;"></div>
+                            <h2 class="card-text">{{ object }}</h2>
+                            <p class="card-text">Стаж работы : {{ object.work_experience }} </p>
+                            <p class="card-text">Специализация : {{ object.specialization }}</p>
+                            <p class="card-text">Ученая степень / Категория: {{ object.science }}</p>
+                            <p class="card-text">Должнность : {{ object.post }}</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Оставить отзыв</button>
+                                    <button><a class="btn btn-sm btn-outline-secondary" href="{% url 'doctors:home' %}">Назад</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

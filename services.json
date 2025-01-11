@@ -1,0 +1,98 @@
+[
+  {
+    "model" : "services.service" ,
+    "pk" : 2 ,
+    "fields" : {
+      "name" : "Компьютерная томография" ,
+      "description" : "Позволяет визуализировать внутренние органы, сосуды, проанализировать их состояние." ,
+      "price" : "15000.00" ,
+      "picture" : "services/аа.jpg"
+    }
+  } ,
+  {
+    "model" : "services.service" ,
+    "pk" : 3 ,
+    "fields" : {
+      "name" : "Лабораторная диагностика" ,
+      "description" : "Эти методы включают анализы крови, мочи, кала и других биологических материалов." ,
+      "price" : "5000.00" ,
+      "picture" : "services/dd.jpg"
+    }
+  } ,
+  {
+    "model" : "services.service" ,
+    "pk" : 4 ,
+    "fields" : {
+      "name" : "Электрокардиография" ,
+      "description" : "Электрокардиография (ЭКГ) – исследование электрической активности сердечной мышцы." ,
+      "price" : "7000.00" ,
+      "picture" : "services/сс.jpg"
+    }
+  } ,
+  {
+    "model" : "services.service" ,
+    "pk" : 5 ,
+    "fields" : {
+      "name" : "Медицинские осмотры" ,
+      "description" : "Комплекс медицинских процедур, проводимых с целью выявления заболеваний и риска их развития." ,
+      "price" : "5000.00" ,
+      "picture" : "services/нн.jpg"
+    }
+  } ,
+  {
+    "model" : "services.service" ,
+    "pk" : 6 ,
+    "fields" : {
+      "name" : "Урология и Гинекология" ,
+      "description" : "Диагностика и лечение мужских и женских проблем" ,
+      "price" : "15000.00" ,
+      "picture" : "services/дд.jpg"
+    }
+  } ,
+  {
+    "model" : "services.service" ,
+    "pk" : 7 ,
+    "fields" : {
+      "name" : "Выдача медицинских справок" ,
+      "description" : "Прохождение комиссий и выдача справок о состоянии здоровья пациента" ,
+      "price" : "5000.00" ,
+      "picture" : "services/ее.jpg"
+    }
+  } ,
+  {
+    "model" : "services.record" ,
+    "pk" : 1 ,
+    "fields" : {
+      "user" : 9 ,
+      "service" : 4 ,
+      "doctor" : 8 ,
+      "created_at" : "2025-01-11T06:51:33.310Z" ,
+      "record_time" : "2024-01-12" ,
+      "is_active" : true
+    }
+  } ,
+  {
+    "model" : "services.record" ,
+    "pk" : 2 ,
+    "fields" : {
+      "user" : 10 ,
+      "service" : 5 ,
+      "doctor" : 13 ,
+      "created_at" : "2025-01-11T06:53:22.157Z" ,
+      "record_time" : "2024-01-13" ,
+      "is_active" : true
+    }
+  } ,
+  {
+    "model" : "services.record" ,
+    "pk" : 3 ,
+    "fields" : {
+      "user" : 11 ,
+      "service" : 3 ,
+      "doctor" : 14 ,
+      "created_at" : "2025-01-11T06:54:17.365Z" ,
+      "record_time" : "2024-01-14" ,
+      "is_active" : true
+    }
+  }
+]

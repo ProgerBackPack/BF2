@@ -1,0 +1,27 @@
+{% extends 'services/base.html' %}
+{% load my_tags %}
+{% block content %}
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div style="text-align: center;"><img src="{{ object.picture | media_filter }}"
+                                                              style="width:500px;"></div>
+                        <div class="card-body">
+                            <p class="card-text">{{ service }}</p>
+                            <p class="card-text">{{ service.description }}. </p>
+                            <p class="card-text">{{ service.price }} Руб.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button><a class="btn btn-sm btn-outline-secondary" href="{% url 'services:home' %}">Назад</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

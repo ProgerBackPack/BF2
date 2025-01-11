@@ -1,0 +1,170 @@
+[
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :3 ,
+    "fields" :{
+      "name" :"Андрей" ,
+      "surname" :"Филатов" ,
+      "patronymic" :"Владимирович" ,
+      "work_experience" :15 ,
+      "specialization" :"Кардиолог" ,
+      "science" :"Кандидат медицинский наук / врач высшей категории" ,
+      "post" :"Кардиолог" ,
+      "picture" :"doctors/photo/1.jpeg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :4 ,
+    "fields" :{
+      "name" :"Александр" ,
+      "surname" :"Елисеев" ,
+      "patronymic" :"Викторович" ,
+      "work_experience" :10 ,
+      "specialization" :"Уролог / гинеколог" ,
+      "science" :"Кандидат медицинский наук / врач высшей категории" ,
+      "post" :"Уролог / гинеколог" ,
+      "picture" :"doctors/photo/2.jpeg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :5 ,
+    "fields" :{
+      "name" :"Дарья" ,
+      "surname" :"Андреева" ,
+      "patronymic" :"Александровна" ,
+      "work_experience" :10 ,
+      "specialization" :"Терапевт" ,
+      "science" :"Кандидат медицинских наук / врач высшей категории" ,
+      "post" :"Терапевт" ,
+      "picture" :"doctors/photo/3.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :6 ,
+    "fields" :{
+      "name" :"Светлана" ,
+      "surname" :"Кравцова" ,
+      "patronymic" :"Викторовна" ,
+      "work_experience" :6 ,
+      "specialization" :"Офтальмолог" ,
+      "science" :"Врач первой категории / кандидат медицинских наук" ,
+      "post" :"Офтальмолог / окулист" ,
+      "picture" :"doctors/photo/4.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :7 ,
+    "fields" :{
+      "name" :"Алексей" ,
+      "surname" :"Знаменский" ,
+      "patronymic" :"Валерьянович" ,
+      "work_experience" :20 ,
+      "specialization" :"Онколог / пульмонолог" ,
+      "science" :"врач высшей категории / доктор медицинских наук" ,
+      "post" :"Онколог / пульмонолог" ,
+      "picture" :"doctors/photo/5.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :8 ,
+    "fields" :{
+      "name" :"Станислав" ,
+      "surname" :"Шуйский" ,
+      "patronymic" :"Алексеевич" ,
+      "work_experience" :20 ,
+      "specialization" :"Инфекционист / эндокринолог" ,
+      "science" :"Доктор медицинских наук / врач высшей категории" ,
+      "post" :"Инфекционист / эндокринолог" ,
+      "picture" :"doctors/photo/6.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :9 ,
+    "fields" :{
+      "name" :"Анастасия" ,
+      "surname" :"Воробьева" ,
+      "patronymic" :"Дмитриевна" ,
+      "work_experience" :16 ,
+      "specialization" :"Невролог" ,
+      "science" :"кандидат медицинских наук / врач высшей категории" ,
+      "post" :"Главврач" ,
+      "picture" :"doctors/photo/7.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :10 ,
+    "fields" :{
+      "name" :"Надежда" ,
+      "surname" :"Кашапова" ,
+      "patronymic" :"Валентиновна" ,
+      "work_experience" :12 ,
+      "specialization" :"Педиатр" ,
+      "science" :"кандидат медицинских наук / врач высшей категории" ,
+      "post" :"Педиатр" ,
+      "picture" :"doctors/photo/8.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :11 ,
+    "fields" :{
+      "name" :"Марина" ,
+      "surname" :"Кононова" ,
+      "patronymic" :"Константиновна" ,
+      "work_experience" :6 ,
+      "specialization" :"Гастроэнтеролог" ,
+      "science" :"кандидат медицинских наук / врач первой категории" ,
+      "post" :"Гастроэнтеролог" ,
+      "picture" :"doctors/photo/9.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :12 ,
+    "fields" :{
+      "name" :"Константин" ,
+      "surname" :"Демьянов" ,
+      "patronymic" :"Олегович" ,
+      "work_experience" :10 ,
+      "specialization" :"Общая хирургия" ,
+      "science" :"кандидат медицинских наук / врач высшей категории" ,
+      "post" :"Хирург" ,
+      "picture" :"doctors/photo/10.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :13 ,
+    "fields" :{
+      "name" :"Ксения" ,
+      "surname" :"Воронцова" ,
+      "patronymic" :"Святославовна" ,
+      "work_experience" :6 ,
+      "specialization" :"Аллерголог-иммунолог" ,
+      "science" :"кандидат медицинских наук / врач первой категории" ,
+      "post" :"Аллерголог-иммунолог" ,
+      "picture" :"doctors/photo/12.jpg"
+    }
+  } ,
+  {
+    "model" :"doctors.doctor" ,
+    "pk" :14 ,
+    "fields" :{
+      "name" :"Владислав" ,
+      "surname" :"Шипулин" ,
+      "patronymic" :"Андреевич" ,
+      "work_experience" :15 ,
+      "specialization" :"Травматолог-ортопед" ,
+      "science" :"доктор медицинских наук / врач высшей категории" ,
+      "post" :"Травматолог-ортопед" ,
+      "picture" :"doctors/photo/11.jpeg"
+    }
+  }
+]

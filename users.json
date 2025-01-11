@@ -1,0 +1,107 @@
+[
+  {
+    "model" :"users.user" ,
+    "pk" :7 ,
+    "fields" :{
+      "password" :"pbkdf2_sha256$600000$LP6q9Rk6lUMPTNOfprjlqo$EvX6aCNvqoTyovmXLmMMNyb89jWmYyA7x7Rn4X0VtlI=" ,
+      "last_login" :null ,
+      "is_superuser" :false ,
+      "is_staff" :false ,
+      "is_active" :false ,
+      "date_joined" :"2025-01-11T06:42:14.413Z" ,
+      "email" :"shanceshance@yandex.ru" ,
+      "first_name" :"" ,
+      "last_name" :"" ,
+      "avatar" :"" ,
+      "phone" :null ,
+      "country" :null ,
+      "token" :"9b8cfa316cd0ca373ba1f3b0af517dd7" ,
+      "groups" :[] ,
+      "user_permissions" :[]
+    }
+  } ,
+  {
+    "model" :"users.user" ,
+    "pk" :8 ,
+    "fields" :{
+      "password" :"pbkdf2_sha256$600000$tDFc0vltgyFQcsjZZXUwlQ$9R5xULWxhac6CbU2Auo40QdJ1iBhF8I5TcrL59cOr+o=" ,
+      "last_login" :"2025-01-11T06:54:42.624Z" ,
+      "is_superuser" :true ,
+      "is_staff" :true ,
+      "is_active" :true ,
+      "date_joined" :"2025-01-11T06:49:32.613Z" ,
+      "email" :"admin@example.com" ,
+      "first_name" :"Admin" ,
+      "last_name" :"God" ,
+      "avatar" :"" ,
+      "phone" :null ,
+      "country" :null ,
+      "token" :null ,
+      "groups" :[] ,
+      "user_permissions" :[]
+    }
+  } ,
+  {
+    "model" :"users.user" ,
+    "pk" :9 ,
+    "fields" :{
+      "password" :"pbkdf2_sha256$600000$RyheFPXy47Iwkd7bv7pSfh$7hpB3DiUh4i+fXExOl1kBW0deFzAh9Xh9wZIa0NuhSs=" ,
+      "last_login" :"2025-01-11T06:51:01.990Z" ,
+      "is_superuser" :false ,
+      "is_staff" :false ,
+      "is_active" :true ,
+      "date_joined" :"2025-01-11T06:49:48.991Z" ,
+      "email" :"test1@test.ru" ,
+      "first_name" :"Test1" ,
+      "last_name" :"Testov1" ,
+      "avatar" :"" ,
+      "phone" :null ,
+      "country" :null ,
+      "token" :null ,
+      "groups" :[] ,
+      "user_permissions" :[]
+    }
+  } ,
+  {
+    "model" :"users.user" ,
+    "pk" :10 ,
+    "fields" :{
+      "password" :"pbkdf2_sha256$600000$p3RlYZnfjjRUrGRIBCE7A8$v9yhOV9jyEp+2EB0n+liAR6eFPOPEQnBpabPZCztpjA=" ,
+      "last_login" :"2025-01-11T06:53:05.887Z" ,
+      "is_superuser" :false ,
+      "is_staff" :false ,
+      "is_active" :true ,
+      "date_joined" :"2025-01-11T06:49:49.133Z" ,
+      "email" :"test2@test.ru" ,
+      "first_name" :"Test2" ,
+      "last_name" :"Testov2" ,
+      "avatar" :"" ,
+      "phone" :null ,
+      "country" :null ,
+      "token" :null ,
+      "groups" :[] ,
+      "user_permissions" :[]
+    }
+  } ,
+  {
+    "model" :"users.user" ,
+    "pk" :11 ,
+    "fields" :{
+      "password" :"pbkdf2_sha256$600000$2on9I5uzywBbGq7s6gD5OV$KW0epRimJhzRPxyOuKlmNBsLsGSRGNkLy5moqGw4bEs=" ,
+      "last_login" :"2025-01-11T06:54:00.059Z" ,
+      "is_superuser" :false ,
+      "is_staff" :false ,
+      "is_active" :true ,
+      "date_joined" :"2025-01-11T06:49:49.275Z" ,
+      "email" :"test3@test.ru" ,
+      "first_name" :"Test3" ,
+      "last_name" :"Testov3" ,
+      "avatar" :"" ,
+      "phone" :null ,
+      "country" :null ,
+      "token" :null ,
+      "groups" :[] ,
+      "user_permissions" :[]
+    }
+  }
+]
