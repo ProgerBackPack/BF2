@@ -58,7 +58,7 @@
 
 5)запустить Redis-server
 
-5.1)соберите образ и запустить контейнер: Docker-compose up -d --build
+5.1)соберите образ и запустить контейнер: docker compose up --build -d
 
 6)Запустить через команду python manage.py runserver
 
